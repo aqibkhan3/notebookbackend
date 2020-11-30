@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Note Book",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=local nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Aqib khan",
+  "license": "ISC",
+  "dependencies": {
+    "@now/node": "^1.5.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
+    "cryptr": "^6.0.2",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "formidable": "^1.2.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.12",
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.3",
+    "pug": "^2.0.4",
+    "sendmail": "^1.6.1",
+    "socket.io": "^2.3.0",
+    "swagger-ui-express": "^4.1.4",
+    "util": "^0.12.3",
+    "uuid": "^8.0.0",
+    "yamljs": "^0.3.0"
+  }
+}
